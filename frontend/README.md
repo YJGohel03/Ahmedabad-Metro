@@ -3,6 +3,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+First install Node modules so For that run 
+
+### 'npm i' in terminal
 
 In the project directory, you can run:
 
