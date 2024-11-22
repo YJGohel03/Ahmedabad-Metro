@@ -1,0 +1,117 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.home-gallery {
+  font-family: "Raleway";
+  font: 72px;
+  
+  
+}
+
+.image {
+  max-width: 10%;
+  height: auto;
+
+
+}
+
+.hero-container {
+  background-color: white;
+  color: orange;
+  text-align: center;
+  padding: 40px 20px;
+
+}
+
+.hero-container h1 {
+  font-size: 72px;
+  margin-bottom: 20px;
+  
+}
+
+.drawer-menu-container { 
+  background-color:burlywood ;
+}
+
+.home-btn-group button {
+  margin: 10px;
+  color: orange;
+  background-color: antiquewhite;
+}
+
+.home-details {
+  padding: 40px 20px;
+}
+
+.home-details1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-details1 h1 {
+  font-size: 36px;
+}
+
+.home-details1 img {
+  border-radius: 1%;
+  max-width: 10%;
+  height: auto;
+}
+
+.home-pricing {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.home-pricing1 h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-pricing-card,
+.home-pricing-card1,
+.home-pricing-card2 {
+  background-color: lightsalmon;
+  border-radius: 5%;
+  padding: 32px;
+  margin: 0 15px;
+}
+
+.home-gallery {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.home-gallery img {
+  border-radius: 5%;
+  padding: 0.2vh 0vh 0.2vh 0.2vh;
+}
+
+.home-banner {
+  background-color: black;
+  color: white;
+}
+
+.home-faq {
+
+  padding: 40px 20px;
+}
+
+.metroimage {
+  width: 100%;
+}
+
+.map {
+  width: 70%;
+}
+
+.planbutton {
+  background-color: transparent;
+  border-width: 1px;
+  border-color: black;
+  padding: 7px;
+  border-radius: 5px;
+  color: rgb(55, 53, 53);
+}

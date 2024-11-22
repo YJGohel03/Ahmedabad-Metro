@@ -1,0 +1,22 @@
+.smart-card-register-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .smart-card-register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* .smart-card-register-form form {
+    margin-top: 10px;
+  } */
+  .smart-card-register-form button{
+    background-color:orange;
+    width: 40%;
+
+    }

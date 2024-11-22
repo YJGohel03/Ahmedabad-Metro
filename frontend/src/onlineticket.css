@@ -1,0 +1,56 @@
+.smart-card-register-form {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .smart-card-register-form h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group-text {
+    background-color: #eee;
+    border: none;
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .form-control {
+    border: 1px solid #ddd;
+    border-radius: 0 5px 5px 0;
+    padding: 8px 12px;
+  }
+  
+  .smart-card-register-form button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .smart-card-register-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .smart-card-register-form button:active {
+    background-color: #3e8e41;
+  }

@@ -1,0 +1,100 @@
+.drawer-menu-container {
+    display: flex;
+    height: 100%;
+}
+
+.drawer {
+    width: 250px;
+    background-color: black;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    transition: left 0.3s ease;
+}
+.drawers {
+    width: 250px;
+    background-color: black;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    transition: right 0.3s ease;
+}
+
+.drawer.open {
+    left: 0;
+}
+.drawers.open{
+    right:0;
+}
+
+.drawer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 50px 0;
+}
+.drawers-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0 50px;
+}
+
+.drawer-menu li {
+    padding: 10px;
+}
+
+.drawer-menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.drawer-toggle-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+    padding: 10px;
+    margin: 10px;
+}
+
+.main-content {
+    flex: 1;
+    color: white;
+    text-align: center;
+    text-wrap: 1px;
+    font-family: sans-serif;
+    background-color: white;
+    padding: 20px;
+    height: 100%;
+}
+.buttons{
+    width: 85%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.profile-button{
+    width: 125%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+.profile-btn-container{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+    padding: 9px;
+    margin: 9px;
+}
